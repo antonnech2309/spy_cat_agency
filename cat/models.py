@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class SpyCat(models.Model):
     name = models.CharField(max_length=255)
     experience = models.PositiveIntegerField()

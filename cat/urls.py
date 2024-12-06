@@ -4,8 +4,8 @@ from .views import SpyCatViewSet
 
 
 router = DefaultRouter()
-router.register(r'spycats', SpyCatViewSet)
+router.register(r"spycats", SpyCatViewSet)
 
 urlpatterns = [
-    path('', include(router.urls)),
+    path("", include(router.urls)),
 ]
